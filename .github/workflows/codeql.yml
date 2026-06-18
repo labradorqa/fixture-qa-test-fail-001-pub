@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
           - language: java-kotlin
-            build-mode: none
+            build-mode: autobuild
     steps:
       - uses: actions/checkout@v4
       - name: Initialize CodeQL
